@@ -1,0 +1,32 @@
+{
+  "name": "prettier-plugin-combine",
+  "version": "1.0.3",
+  "description": "Prettier plugin that combines multiple plugins",
+  "main": "index.js",
+  "keywords": [
+    "prettier",
+    "plugin",
+    "combine"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": ">=2.0.0",
+    "prettier-new-line-plugin": "github:fancom/prettier-newline-plugin#v1.0.0",
+    "prettier-plugin-organize-imports": "^4.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fancom/prettier-plugin-combine.git"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
