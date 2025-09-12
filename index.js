@@ -9,7 +9,7 @@ const DEFAULT_ENABLED = [...AVAILABLE_PARSERS];
  * Helper to check if a parser is enabled in options.
  */
 function isEnabled(options, parser) {
-  const enabled = options?.combineParsersEnabled || DEFAULT_ENABLED;
+  const enabled = options?.parsersEnabled || DEFAULT_ENABLED;
   return enabled.includes(parser);
 }
 
