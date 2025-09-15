@@ -12,7 +12,7 @@
   "license": "MIT",
   "peerDependencies": {
     "prettier": ">=2.0.0",
-    "prettier-new-line-plugin": "github:fancom/prettier-newline-plugin#v1.0.0",
+    "prettier-new-line-plugin": "github:fancom/prettier-newline-plugin#v1.0.1",
     "prettier-plugin-organize-imports": "^4.2.0"
   },
   "devDependencies": {
